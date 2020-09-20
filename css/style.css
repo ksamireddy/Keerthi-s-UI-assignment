@@ -1,0 +1,209 @@
+/* CSS for style layout start*/
+.nav {
+    padding: 0px 25px;
+    font-family: sans-serif;
+}
+
+.nav .menu-btn {
+    display: none;
+}
+
+.nav-content {
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+}
+
+.nav-content li {
+    display: inline-block;
+}
+
+.nav-content li a {
+    text-decoration: none;
+    padding: 14px 10px;
+    display: flex;
+}
+
+.nav-content li a .fa-caret-down {
+    padding: 0px 10px;
+}
+
+.dropdown .close-dropdown .fa-times {
+    padding-right: 10px;
+    float: right;
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1;
+    min-width: 130px;
+    display: none;
+}
+
+svg:not(:root).svg-inline--fa {
+    padding-right: 5px;
+}
+
+/*  CSS for style layout end*/
+
+
+/* CSS Media Query for 768p start */
+@media screen and (max-width: 768px) {
+
+    .bottom-border-nav {
+        border-bottom: 0.1px solid;
+    }
+
+    .nav {
+        padding: 0px;
+    }
+
+    .nav .menu-btn {
+        display: block;
+        padding: 10px;
+        font-size: 2rem;
+    }
+
+    .nav-elements {
+        display: none;
+    }
+
+    .nav-navy {
+        border-top: 1px solid #C0D0DC;
+    }
+
+    .nav-content {
+        display: block;
+    }
+
+    .nav-content li {
+        display: block;
+    }
+
+    .dropdown-menu {
+        position: relative;
+        min-width: auto;
+    }
+
+    .dropdown-menu a {
+        padding-left: 20px !important;
+    }
+
+}
+
+/* CSS Media Query for 768p end */
+
+
+/* CSS for navy theme start*/
+body {
+    margin: 0px;
+    background-color: #E8F5FA;
+}
+
+.nav-navy {
+    color: #C0D0DC;
+    background-color: #273945;
+}
+
+.nav-navy .nav-content li a {
+    color: #C0D0DC;
+}
+
+.nav-navy .nav-content li a:hover,
+.nav-navy .dropdown:hover .dropdown-link {
+    background-color: #273945;
+}
+
+.nav-navy .nav-content li a i {
+    margin-right: 5px;
+}
+
+.nav-navy .dropdown-menu {
+    background-color: #273945;
+    box-shadow: 0px 5px 10px #abdaff;
+}
+
+.nav-navy .active {
+    background-color: #273945;
+    border-bottom: solid #00BBAB;
+    border-bottom-width: 4px;
+}
+
+/* CSS for navy theme end*/
+
+    {
+    box-sizing: border-box;
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#dtTable {
+    width: 91%;
+    font-size: 14px;
+    margin-left: 4%;
+    background: #FFF;
+    border-radius: 5px !important;
+}
+
+#dtTable th,
+#dtTable td {
+    text-align: left;
+    padding: 12px;
+}
+
+#dtTable tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table {
+    border: none;
+}
+
+h3 {
+    margin-left: 4%;
+}
+
+label {
+    color: #8e8d8d;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: #0d6efd;
+    border: 1px solid transparent;
+    padding: .370rem 0.70rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    font-size: 11px;
+}
+
+.btn-outline-primary {
+    color: #FFFFFF;
+    border-color: #0d6efd;
+}
+
+.hidden_row {
+    display: none;
+}

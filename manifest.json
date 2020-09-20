@@ -1,0 +1,16 @@
+{
+  "name": "UIAssignment",
+  "short_name": "UIAssignment",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fdfdfd",
+  "theme_color": "#db4938",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/icons/icon-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    }
+  ]
+}

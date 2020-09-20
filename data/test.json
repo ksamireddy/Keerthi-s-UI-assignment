@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "contract_no": "5421",
+        "product_type": "Equipment Loan",
+        "commencement_date": "2011/04/25",
+        "term": "1",
+        "maturity_date": "2011/07/25",
+        "amount": "823787.89 USD",
+        "status": "active",
+        "payment_frequency": "Monthly",
+        "principal_bal":"810989 USD",
+        "interest_bal":"1000 USD",
+        "total_bal":"811989 USD",
+        "payment_remaining":"811989 USD"
+    },
+    {
+        "id": 2,
+        "contract_no": "8422",
+        "product_type": "Equipment Loan",
+        "commencement_date": "2011/07/25",
+        "term": "2",
+        "maturity_date": "Tokyo",
+        "amount": "7568.09 USD",
+        "status": "active",
+        "payment_frequency": "Monthly",
+        "principal_bal":"810989 USD",
+        "interest_bal":"1000 USD",
+        "total_bal":"811989 USD",
+        "payment_remaining":"811989 USD"
+    },
+    {
+        "id": 3,
+        "contract_no": "1562",
+        "product_type": "Equipment Loan",
+        "commencement_date": "2009/01/12",
+        "term": "3",
+        "maturity_date": "2011/07/25",
+        "amount": "19800.09 USD",
+        "status": "pending",
+        "payment_frequency": "Monthly",
+        "principal_bal":"810989 USD",
+        "interest_bal":"1000 USD",
+        "total_bal":"81q989 USD",
+        "payment_remaining":"811989 USD"
+    }
+]
